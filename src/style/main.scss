@@ -1,0 +1,37 @@
+/* Custom Bootstrap */
+@import "../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
+
+/* Font-awesome */
+@import "../../node_modules/font-awesome/css/font-awesome.min.css";
+
+/* Custom */
+@import "partials/colors";
+@import "partials/buttons";
+@import "partials/fonts";
+
+
+/*Taxonomies*/
+@import "taxonomies/forms.scss";
+@import "taxonomies/lists-head.scss";
+@import "taxonomies/lists-footer.scss";
+@import "taxonomies/main-taxomon.scss";
+@import "taxonomies/texts.scss";
+@import "taxonomies/link.scss";
+
+/* Mixins */
+@import "mixins/border.scss";
+@import "mixins/button.scss";
+@import "mixins/font.scss";
+@import "mixins/links.scss";
+@import "mixins/overlay.scss";
+
+
+/* Views */
+@import "views/header";
+@import "views/index-body";
+@import "views/about-body";
+@import "views/prices-body";
+@import "views/footer";
+
+
+

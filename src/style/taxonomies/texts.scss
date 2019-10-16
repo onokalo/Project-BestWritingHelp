@@ -1,0 +1,22 @@
+@import "partials/colors";
+@import "mixins/font";
+@import "partials/fonts";
+
+h1{
+    @include font (24px, $font-bold, $font-color-primary-3);
+    text-transform: uppercase;
+    
+}
+h2{
+    @include font (22px, $font-bold, $font-color-primary-3);
+    text-transform: uppercase;
+}
+h3{
+    @include font(20px, $font-medium, $font-color-primary-3);
+    text-transform: uppercase;
+}
+
+h4{
+    @include font(18px, $font-medium, $font-color-primary-3);
+    text-transform: uppercase;
+}
